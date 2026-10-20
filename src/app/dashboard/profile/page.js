@@ -36,10 +36,10 @@ export default function ProfilePage() {
     return (
         <section>
             <aside className="dashboard-sidebar">
-                <Link href="/dashboard" className="auth-brand dashboard-brand">
-                    <span className="brand-icon">P</span>
+                <div className="auth-brand">
+                    <div className="brand-icon">P</div>
                     <span>ProfileHub</span>
-                </Link>
+                </div>
 
                 <p className="sidebar-label">WORKSPACE</p>
 

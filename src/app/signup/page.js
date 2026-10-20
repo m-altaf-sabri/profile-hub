@@ -7,10 +7,10 @@ export default function SignupPage() {
         <main className="auth-page">
             <ThemeToggle />
             <section className="auth-card">
-                <Link href="/" className="auth-brand">
+                <div className="auth-brand">
                     <div className="brand-icon">P</div>
                     <span>ProfileHub</span>
-                </Link>
+                </div>
 
                 <div className="auth-heading">
                     <p className="eyebrow">YOUR DIGITAL IDENTITY</p>

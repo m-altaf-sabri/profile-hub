@@ -46,10 +46,10 @@ export default function DashboardPage() {
     return (
         <section className="dashboard-main">
             <aside className="dashboard-sidebar">
-                <Link href="/dashboard" className="auth-brand dashboard-brand  hover:no-underline">
-                    <span className="brand-icon">P</span>
+                <div className="auth-brand">
+                    <div className="brand-icon">P</div>
                     <span>ProfileHub</span>
-                </Link>
+                </div>
         
                 <p className="sidebar-label">WORKSPACE</p>
 

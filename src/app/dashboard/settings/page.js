@@ -2,8 +2,8 @@
 
 import { useState } from "react";
 import Link from "next/link";
-import ThemeToggle from "../../../components/ThemeToggle";
 import { useTheme } from "../../../components/ThemeProvider";
+import ThemeToggle from "../../../components/ThemeToggle";
 import DashboardSidebar from "../../../components/DashboardSidebar";
 
 export default function SettingsPage() {
@@ -34,10 +34,10 @@ export default function SettingsPage() {
     return (
         <section>
             <aside className="dashboard-sidebar">
-                <Link href="/dashboard" className="auth-brand dashboard-brand">
-                    <span className="brand-icon">P</span>
+                <div className="auth-brand">
+                    <div className="brand-icon">P</div>
                     <span>ProfileHub</span>
-                </Link>
+                </div>
 
                 <p className="sidebar-label">WORKSPACE</p>
 
